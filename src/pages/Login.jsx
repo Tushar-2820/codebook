@@ -50,7 +50,7 @@ export const Login = () => {
       password: import.meta.env.VITE_APP_GUEST_PASSWORD,
     }
 
-    console.log(authDetails.email, authDetails.password);
+    // console.log(authDetails.email, authDetails.password);
 
     try{
       const data = await loginUser(authDetails);
